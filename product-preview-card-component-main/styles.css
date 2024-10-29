@@ -4,14 +4,14 @@
 }
 
 body {
-  padding: 16px;
+  padding: 316px;
   border: 0;
 }
 
 .smells {
   display: flex;
   flex-direction: column;
-  border: 2px solid rgb(29, 26, 240);
+
   justify-content: center;
   font-weight: 900;
   background-color: white;
@@ -20,7 +20,7 @@ body {
   display: flex;
 }
 .smell2 {
-  width: 300px;
+  width: 100%;
   background-color: green;
   justify-content: space-around;
   display: flex;
