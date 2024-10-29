@@ -1,11 +1,22 @@
+* {
+  border: 1px solid red;
+  padding: 4px;
+}
+
+body {
+  padding: 16px;
+  border: 0;
+}
+
 .add {
-  color: papayawhip;
-  background-color: lightgreen;
-  text-align: center;
-  border-radius: 100px;
-  border: 2px solid black;
-  margin: 50px;
-  padding: 20px;
-  font-size: larger;
-  font-weight: bold;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  border: 2px solid rgb(29, 26, 240);
+  height: 500px;
+  width: 500px;
+}
+.child {
+  display: flex;
+  flex-direction: space-between;
 }
