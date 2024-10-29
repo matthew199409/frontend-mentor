@@ -4,24 +4,29 @@
 }
 
 body {
-  padding: 316px;
+  padding: 16px;
   border: 0;
 }
 
 .smells {
   display: flex;
   flex-direction: column;
-
-  justify-content: center;
+  justify-content: space-between;
   font-weight: 900;
   background-color: white;
 }
 .smell1 {
   display: flex;
+  align-items: center;
 }
 .smell2 {
-  width: 100%;
+  width: 50%;
   background-color: green;
   justify-content: space-around;
   display: flex;
+  color: white;
+}
+.light {
+  color: lime;
+  font-size: 50px;
 }
