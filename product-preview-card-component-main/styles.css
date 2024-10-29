@@ -1,4 +1,4 @@
-* {
+ {
   border: 1px solid red;
   padding: 4px;
 }
@@ -8,15 +8,20 @@ body {
   border: 0;
 }
 
-.add {
+.smells {
   display: flex;
-  flex-flow: row;
-  align-items: center;
+  flex-flow: column;
+  align-content: center;
   border: 2px solid rgb(29, 26, 240);
-  height: 500px;
-  width: 500px;
+  justify-content: center;
+  font-weight: 900;
 }
-.child {
+.smell1 {
   display: flex;
-  flex-direction: space-between;
+}
+.smell2 {
+  width: 300px;
+  background-color: green;
+  justify-content: space-around;
+  display: flex;
 }
