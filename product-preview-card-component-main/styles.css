@@ -1,9 +1,134 @@
- {
-  border: 1px solid red;
-  padding: 4px;
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  font-family: Montserrat;
+  padding: 20px;
+}
+
+.container {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.product-name {
+  font-family: Fraunces;
+}
+
+.img-wrapper {
+  font-size: 0;
+}
+
+.img-wrapper img {
+  width: 100%;
+}
+
+.product-info {
+  background-color: white;
+  padding: 20px;
+}
+
+.product-info > * + * {
+  margin-top: 10px;
+}
+
+.product-category {
+  color: var(--dark-grayish-blue);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.product-desc {
+  color: var(--dark-grayish-blue);
+  line-height: 2;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.price-sale {
+  font-size: 32px;
+  font-family: Fraunces;
+  font-weight: bold;
+  color: var(--dark-cyan);
+}
+
+.price-original {
+  font-size: 14px;
+  color: var(--dark-grayish-blue);
+}
+
+.add-to-cart-btn {
+  display: flex;
+  width: 100%;
+  border: 0;
+  background-color: var(--dark-cyan);
+  color: white;
+  padding-block: 8px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+/* 
+
+total width = content + padding + border  
+
+
+without border-box, "css width" is to set content's witdth
+ex: css width is 500px, padding: 10px, border: 10px, 
+total width = 500 + 20 + 20 = 540px
+
+
+with border-box, "css width" is to set the total width with padding and border fixed, and content is recalculated
+ex: css width is 500px, padding: 10px, border: 10px,
+total width = 460 + 20 + 20 = 500px
+
+*/
+
+/* innermost box in box model is the content box  */
+
+/* 500 - 20*2 - 15*2
+500 - 40 - 30 = 430 */
+
+/* without box-sizing: border-box, total width = width + padding + border
+with box-sizing: border-box, total width = width  */
+
+/* 
+width: 100px
+padding: 20px
+content: 100px;
+total width: 140px
+
+
+padding: 20px
+width: 100px
+content: 60px;
+total width: 100px */
+
+/* * {
+  border: 1px solid red;
+  padding: 4px;
+} */
+
+/* body {
   padding: px;
   border: 0;
 }
@@ -33,4 +158,4 @@ body {
 }
 h4 {
   color: #d4d3d3;
-}
+} */
