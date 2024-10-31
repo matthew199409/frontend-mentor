@@ -5,3 +5,9 @@
   --Desaturated-blue: hsl(224, 23%, 55%);
   --Dark-blue: hsl(223, 47%, 23%);
 }
+body {
+  background-color: lightblue;
+}
+h2 {
+  color: rgb(158, 157, 157);
+}
