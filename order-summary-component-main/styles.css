@@ -43,6 +43,20 @@ p {
   align-items: center;
   padding: 25px;
 }
+.but {
+  border-left: 0px;
+  color: blue;
+  border-bottom: solid 2px;
+  background-color: inherit;
+  border-top: 0px;
+  border-right: 0px;
+}
+.col {
+  color: var(--Dark-blue);
+}
+.lite {
+  color: var(--Desaturated-blue);
+}
 
 .pay {
   align-self: center;
@@ -57,21 +71,8 @@ p {
   padding-bottom: 20px;
   margin: 20px;
 }
-.but {
-  border-left: 0px;
-  color: blue;
-  border-bottom: solid 2px;
-  background-color: inherit;
-  border-top: 0px;
-  border-right: 0px;
-}
+
 h2 {
   color: rgb(158, 157, 157);
   align-self: center;
-}
-.col {
-  color: var(--Dark-blue);
-}
-.lite {
-  color: var(--Desaturated-blue);
 }
