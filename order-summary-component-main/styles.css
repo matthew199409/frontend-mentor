@@ -45,17 +45,19 @@ p {
   margin: 12px;
   font-size: 16px;
   box-sizing: border-box;
+  align-items: center;
 }
 
 .pay {
   align-self: center;
   font-size: 16px;
-  margin: 15px;
+  margin-bottom: 15px;
   background-color: blue;
   color: white;
   border-radius: 25px;
-  padding: 40px;
+  padding: 50px;
   box-sizing: border-box;
+  font-weight: 900;
 }
 .but {
   border-left: 0px;
