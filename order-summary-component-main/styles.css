@@ -33,6 +33,8 @@ h1 {
 p {
   align-self: center;
   margin: 20px;
+  color: var(--Desaturated-blue);
+  font-size: 16px;
 }
 .plan {
   display: flex;
@@ -42,11 +44,12 @@ p {
   border-radius: 50px;
   margin: 12px;
   padding: 12px;
+  font-size: 16px;
 }
 
 .pay {
   align-self: center;
-  font-size: 35px;
+  font-size: 16px;
   margin: 15px;
   background-color: blue;
   color: white;
@@ -60,6 +63,7 @@ p {
   background-color: inherit;
   border-top: 0px;
   border-right: 0px;
+  margin: 20px;
 }
 h2 {
   color: rgb(158, 157, 157);
