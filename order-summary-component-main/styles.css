@@ -12,8 +12,10 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
+  align-items: inline;
   background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
 }
 h2 {
   color: rgb(158, 157, 157);
