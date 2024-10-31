@@ -36,7 +36,7 @@ p {
 }
 .plan {
   display: flex;
-  background-color: rgba(233, 233, 233, 0.765);
+  background-color: var(--Desaturated-blue);
   align-self: center;
   flex-direction: row;
   border-radius: 50px;
@@ -50,14 +50,14 @@ p {
   margin: 15px;
   background-color: blue;
   color: white;
-  border-radius: 50px;
+  border-radius: 25px;
   padding: 20px;
 }
 .but {
   border-left: 0px;
   color: blue;
   border-bottom: solid 2px;
-
+  background-color: inherit;
   border-top: 0px;
   border-right: 0px;
 }
