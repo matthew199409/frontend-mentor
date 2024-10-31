@@ -12,6 +12,7 @@ body {
   align-self: center;
   border-radius: 100px;
   padding: 50px;
+  box-sizing: border-box;
 }
 .parent {
   display: flex;
@@ -59,4 +60,7 @@ h2 {
 
   border-top: 0px;
   border-right: 0px;
+}
+p {
+  align-self: center;
 }
