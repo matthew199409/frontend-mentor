@@ -8,12 +8,7 @@
 body {
   background-color: lightblue;
 }
-.contain {
-  align-self: center;
-  border-radius: 100px;
-  padding: 50px;
-  box-sizing: border-box;
-}
+
 .parent {
   display: flex;
   flex-direction: column;
@@ -40,7 +35,6 @@ p {
   display: flex;
   background-color: var(--Very-pale-blue);
   align-self: center;
-  flex-direction: row;
   border-radius: 10px;
   margin: 12px;
   font-size: 16px;
@@ -51,13 +45,15 @@ p {
 .pay {
   align-self: center;
   font-size: 16px;
-  margin-bottom: 15px;
   background-color: blue;
   color: white;
-  border-radius: 25px;
+  border-radius: 15px;
   padding: 50px;
   box-sizing: border-box;
   font-weight: 900;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
 }
 .but {
   border-left: 0px;
@@ -70,4 +66,7 @@ p {
 h2 {
   color: rgb(158, 157, 157);
   align-self: center;
+}
+.col {
+  color: red;
 }
