@@ -13,27 +13,33 @@ body {
 }
 
 .parent {
-  display: flex;
+  display: inline;
   flex-direction: column;
   background-color: white;
   border-radius: 20px;
   margin: 25px;
+  justify-content: center;
 }
 
 .img {
   border-radius: 25px;
+  display: inline-block;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
+
+  width: 900px;
 }
 h1 {
   align-self: center;
+  background-color: white;
 }
 
 p {
-  text-align: center;
+  align-items: center;
   margin: 20px;
   color: var(--Desaturated-blue);
   font-size: 16px;
+  background-color: white;
 }
 .plan {
   display: flex;
@@ -42,9 +48,9 @@ p {
   border-radius: 10px;
   margin: 12px;
   font-size: 16px;
-  box-sizing: border-box;
-  align-items: center;
+  align-content: space-between;
   padding: 25px;
+  justify-content: center;
 }
 .but {
   border-left: 0px;
@@ -53,12 +59,6 @@ p {
   background-color: inherit;
   border-top: 0px;
   border-right: 0px;
-}
-.col {
-  color: var(--Dark-blue);
-}
-.lite {
-  color: var(--Desaturated-blue);
 }
 
 .pay {
@@ -78,4 +78,13 @@ p {
 h2 {
   color: rgb(158, 157, 157);
   align-self: center;
+}
+h2 {
+  background-color: white;
+}
+.inline {
+  display: inline-block;
+  background-color: white;
+  box-sizing: content-box;
+  margin: 500px;
 }
