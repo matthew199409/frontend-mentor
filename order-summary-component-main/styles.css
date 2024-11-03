@@ -30,12 +30,12 @@ body {
   width: 900px;
 }
 h1 {
-  align-self: center;
+  text-align: center;
   background-color: white;
 }
 
 p {
-  align-items: center;
+  text-align: center;
   margin: 20px;
   color: var(--Desaturated-blue);
   font-size: 16px;
@@ -44,13 +44,13 @@ p {
 .plan {
   display: flex;
   background-color: var(--Very-pale-blue);
-  align-self: center;
+  align-items: center;
   border-radius: 10px;
   margin: 12px;
   font-size: 16px;
-  align-content: space-between;
+
   padding: 25px;
-  justify-content: center;
+  justify-content: space-between;
 }
 .but {
   border-left: 0px;
@@ -62,7 +62,7 @@ p {
 }
 
 .pay {
-  align-self: center;
+  justify-content: center;
   font-size: 16px;
   background-color: blue;
   color: white;
@@ -76,16 +76,15 @@ p {
 }
 
 h2 {
-  color: rgb(158, 157, 157);
-  align-self: center;
-}
-h2 {
   background-color: white;
   text-align: center;
+  color: grey;
 }
 .inline {
   display: inline-block;
   background-color: white;
   box-sizing: content-box;
-  margin: 500px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 20px;
 }
