@@ -57,7 +57,7 @@ p {
   font-size: 16px;
 
   padding: 25px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .but {
   border-left: 0px;
