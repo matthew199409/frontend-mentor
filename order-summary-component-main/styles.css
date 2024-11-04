@@ -30,6 +30,7 @@ body {
 }
 h1 {
   text-align: center;
+  margin: 25px;
 }
 
 p {
@@ -37,7 +38,9 @@ p {
   margin: 20px;
   color: var(--Desaturated-blue);
   font-size: 16px;
-  text-align: center;
+  font: 1em sans-serif;
+  line-height: 25px;
+  width: 200px;
 }
 .plan {
   display: flex;
@@ -64,15 +67,15 @@ p {
   background-color: blue;
   color: white;
   border-radius: 15px;
-  padding: 70px;
+  padding: 20px;
   font-weight: 900;
-  padding-top: 20px;
-  padding-bottom: 20px;
   margin: 10px;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
+  width: 400px;
 }
 
 h2 {
   text-align: center;
   color: grey;
+  margin: 25px;
 }
