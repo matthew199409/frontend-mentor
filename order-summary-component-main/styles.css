@@ -16,15 +16,12 @@ body {
   display: inline-block;
   background-color: white;
   align-items: center;
-  margin: 0px;
-  padding: 0px;
   border-radius: 20px;
   justify-content: center;
 }
 
 .img {
   border-radius: 25px;
-
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 
