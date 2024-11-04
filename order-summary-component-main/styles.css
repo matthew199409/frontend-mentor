@@ -6,7 +6,8 @@
   --Dark-blue: hsl(223, 47%, 23%);
 }
 * {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
 }
 body {
   background-color: lightblue;
@@ -14,23 +15,16 @@ body {
 .inline {
   display: inline-block;
   background-color: white;
-  box-sizing: content-box;
+  align-items: center;
   margin: 0px;
   padding: 0px;
   border-radius: 20px;
-}
-.parent {
-  display: inline;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 20px;
-  margin: 25px;
   justify-content: center;
 }
 
 .img {
   border-radius: 25px;
-  display: inline-block;
+
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 
@@ -38,7 +32,6 @@ body {
 }
 h1 {
   text-align: center;
-  background-color: white;
 }
 
 p {
@@ -46,7 +39,6 @@ p {
   margin: 20px;
   color: var(--Desaturated-blue);
   font-size: 16px;
-  background-color: white;
 }
 .plan {
   display: flex;
@@ -55,7 +47,6 @@ p {
   border-radius: 10px;
   margin: 12px;
   font-size: 16px;
-
   padding: 25px;
   justify-content: space-around;
 }
@@ -63,9 +54,10 @@ p {
   border-left: 0px;
   color: blue;
   border-bottom: solid 2px;
-  background-color: inherit;
+
   border-top: 0px;
   border-right: 0px;
+  justify-content: center;
 }
 
 .pay {
@@ -75,7 +67,6 @@ p {
   color: white;
   border-radius: 15px;
   padding: 70px;
-  box-sizing: border-box;
   font-weight: 900;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -83,7 +74,6 @@ p {
 }
 
 h2 {
-  background-color: white;
   text-align: center;
   color: grey;
 }
