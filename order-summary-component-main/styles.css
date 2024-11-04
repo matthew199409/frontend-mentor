@@ -24,7 +24,6 @@ body {
   border-radius: 25px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-
   width: 900px;
 }
 h1 {
@@ -36,9 +35,11 @@ p {
   margin: 20px;
   color: var(--Desaturated-blue);
   font-size: 16px;
+  text-align: center;
 }
 .plan {
   display: flex;
+  flex-direction: row;
   background-color: var(--Very-pale-blue);
   align-items: center;
   border-radius: 10px;
@@ -51,14 +52,12 @@ p {
   border-left: 0px;
   color: blue;
   border-bottom: solid 2px;
-
   border-top: 0px;
   border-right: 0px;
   justify-content: center;
 }
 
 .pay {
-  justify-content: center;
   font-size: 16px;
   background-color: blue;
   color: white;
