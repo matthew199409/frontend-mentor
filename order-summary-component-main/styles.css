@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
 :root {
   --Pale-blue: hsl(225, 100%, 94%);
   --Bright-blue: hsl(245, 75%, 52%);
@@ -5,19 +7,23 @@
   --Desaturated-blue: hsl(224, 23%, 55%);
   --Dark-blue: hsl(223, 47%, 23%);
 }
+
 * {
   margin: 0px;
   padding: 0px;
 }
+
 body {
   background-color: var(--Pale-blue);
+  font-family: "Red Hat Display";
 }
+
 .inline {
-  display: inline-flex;
-  flex-direction: column;
+  /* display: inline-flex; */
+  /* flex-direction: column; */
   background-color: white;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   margin: 25px;
   border-radius: 25px;
 }
@@ -26,8 +32,9 @@ body {
   border-radius: 25px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-  min-width: 100%;
+  width: 100%;
 }
+
 h1 {
   text-align: center;
   margin: 25px;
@@ -40,8 +47,8 @@ p {
   font-size: 16px;
   font: 1em sans-serif;
   line-height: 25px;
-  max-width: 25ch;
 }
+
 .plan {
   display: flex;
   flex-direction: row;
@@ -49,12 +56,14 @@ p {
   align-items: center;
   border-radius: 10px;
   margin: 20px;
-  font-size: 20px;
+  font-size: 16px;
   padding: 30px;
+  align-content: space-between;
 }
+
 .but {
   border-left: 0px;
-  color: blue;
+  color: var(--Bright-blue);
   border-bottom: solid 2px;
   border-top: 0px;
   border-right: 0px;
@@ -63,7 +72,7 @@ p {
 }
 
 .pay {
-  font-size: 30px;
+  font-size: 16px;
   background-color: var(--Bright-blue);
   color: white;
   border-radius: 15px;
@@ -79,4 +88,7 @@ h2 {
   text-align: center;
   color: var(--Desaturated-blue);
   margin: 25px;
+}
+.push {
+  margin-right: 20px;
 }
