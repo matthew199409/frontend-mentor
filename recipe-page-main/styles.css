@@ -22,29 +22,51 @@
 .main {
   padding: 20px;
   list-style-position: inside;
+  width: 390px;
+}
+li {
+  padding: 10px;
 }
 
 .omlrecipe {
-  border-radius: 25px;
-  border-width: 2px;
-  border-style: solid;
   max-width: 100%;
+  margin: 20px;
+  padding: 20px;
 }
 h1 {
-  color: pink;
-  text-align: center;
-  background-color: salmon;
+  color: var(--Stone-900);
+  font-weight: 900;
+  margin: 5px;
+  padding: 5px;
+  width: 17ch;
+}
+p {
+  margin: 15px;
+  color: var(--Stone-600);
+  width: 30ch;
+}
+.preptime {
+  background-color: var(--Rose-50);
+  margin: 20px;
+  padding: 20px;
+  color: var(--rose-800);
 }
 
 h2 {
-  color: darkred;
-  text-align: center;
+  color: var(--rose-800);
+  margin: 20px;
+  padding: 20px;
 }
 
 table {
-  text-align: center;
-  color: darkred;
+  color: var(--rose-800);
+  margin: 20px;
+  padding: 20px;
 }
-.list {
-  color: darkred;
+.list1 {
+  color: var(--rose-800);
+  background-color: var(--Rose-50);
+  margin: 20px;
+  padding: 20px;
+  width: 350px;
 }
