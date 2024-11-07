@@ -35,3 +35,10 @@ h2 {
 p {
   text-align: center;
 }
+table {
+  text-align: center;
+  color: darkred;
+}
+.list1 {
+  color: darkred;
+}
