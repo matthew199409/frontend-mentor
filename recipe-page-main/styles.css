@@ -37,7 +37,7 @@ body {
 }
 li {
   padding: 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .omlrecipe {
@@ -53,8 +53,8 @@ h1 {
 }
 p {
   color: var(--Stone-600);
-  width: 50ch;
-  font-size: 18px;
+  width: 100%;
+  font-size: 16px;
   line-height: 25px;
 }
 .preptime {
@@ -64,7 +64,6 @@ p {
   width: 100%;
 }
 .Ingredient {
-  background-color: var(--rose-800);
   background-color: var(--Rose-50);
   width: 100%;
 }
@@ -76,10 +75,10 @@ h2 {
 }
 
 table {
-  color: var(--rose-800);
+  color: var(--Stone-900);
   margin: 20px;
   padding: 20px;
-  width: 90%;
+  width: 80%;
   border-collapse: collapse;
 }
 
@@ -87,7 +86,7 @@ tr + tr {
   border-top: var(--Stone-100) solid 1px;
 }
 .Nutritionvalues {
-  width: 90%;
+  width: 100%;
   color: var(--Brown-800);
   font-family: sans-serif;
 }
