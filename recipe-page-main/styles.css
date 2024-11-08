@@ -30,15 +30,16 @@ body {
 }
 
 .main {
-  padding: 20px;
   list-style-position: inside;
   width: 390px;
   background-color: var(--White);
+  padding: 20px;
 }
 li {
   padding: 10px;
   font-size: 16px;
   color: var(--Stone-900);
+  font-weight: bold;
 }
 
 .omlrecipe {
@@ -46,7 +47,7 @@ li {
 }
 h1 {
   color: var(--Stone-900);
-  font-weight: 900;
+  font-weight: 600;
   width: 17ch;
   font-family: serif;
   margin-top: 20px;
