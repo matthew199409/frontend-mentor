@@ -33,13 +33,13 @@ body {
   list-style-position: inside;
   width: 390px;
   background-color: var(--White);
-  padding: 20px;
+  padding: 5px;
 }
 li {
-  padding: 10px;
+  padding: 12px;
   font-size: 16px;
   color: var(--Stone-900);
-  font-weight: bold;
+  font-weight: var(--Stone-100);
 }
 
 .omlrecipe {
@@ -47,7 +47,7 @@ li {
 }
 h1 {
   color: var(--Stone-900);
-  font-weight: 600;
+  font-weight: 900;
   width: 17ch;
   font-family: serif;
   margin-top: 20px;
@@ -58,17 +58,14 @@ p {
   width: 100%;
   font-size: 16px;
   line-height: 25px;
+  margin-bottom: 12px;
 }
 .preptime {
   background-color: var(--Rose-50);
-
   color: var(--rose-800);
   width: 100%;
 }
-.Ingredient {
-  background-color: var(--Rose-50);
-  width: 100%;
-}
+
 h2 {
   color: var(--rose-800);
   margin: 20px;
@@ -99,6 +96,7 @@ td {
 }
 td:first-child {
   color: var(--Stone-600);
+  font-weight: 100;
 }
 td:nth-child(2) {
   color: var(--rose-800);
@@ -112,4 +110,5 @@ td:nth-child(2) {
 .instruct {
   font-family: sans-serif;
   font-size: 16px;
+  color: var(--Stone-600);
 }
