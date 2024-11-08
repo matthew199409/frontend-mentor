@@ -1,9 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
 
 :root {
   --White: hsl(0, 0%, 100%);
@@ -19,26 +14,37 @@
   --Rose-50: hsl(330, 100%, 98%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: serif;
+}
+
 .main {
   padding: 20px;
   list-style-position: inside;
   width: 390px;
+  background-color: var(--White);
 }
 li {
   padding: 10px;
 }
 
 .omlrecipe {
-  max-width: 100%;
-  margin: 20px;
-  padding: 20px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 h1 {
   color: var(--Stone-900);
   font-weight: 900;
-  margin: 5px;
-  padding: 5px;
   width: 17ch;
+  font-family: serif;
 }
 p {
   margin: 15px;
@@ -48,25 +54,53 @@ p {
 .preptime {
   background-color: var(--Rose-50);
   margin: 20px;
-  padding: 20px;
+  padding: 10px;
   color: var(--rose-800);
+  width: 80%;
 }
 
 h2 {
   color: var(--rose-800);
   margin: 20px;
-  padding: 20px;
+  padding: 10px;
+  font-family: sans-serif;
 }
 
 table {
   color: var(--rose-800);
   margin: 20px;
   padding: 20px;
+  width: 90%;
+  border-collapse: collapse;
 }
 .list1 {
   color: var(--rose-800);
   background-color: var(--Rose-50);
   margin: 20px;
   padding: 20px;
-  width: 350px;
+  width: 80%;
+}
+tr + tr {
+  border-top: var(--Stone-100) solid 1px;
+}
+.Nutritionvalues {
+  width: 90%;
+  color: var(--Brown-800);
+  font-family: sans-serif;
+}
+td {
+  font-family: sans-serif;
+  padding: 20px;
+}
+td:first-child {
+  color: var(--Stone-600);
+}
+td:nth-child(2) {
+  color: var(--rose-800);
+  font-weight: 900;
+}
+.nutri {
+  font-family: "Young Serif";
+  font-weight: 500;
+  color: var(--rose-800);
 }
