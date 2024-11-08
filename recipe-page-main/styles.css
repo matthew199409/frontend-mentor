@@ -25,6 +25,10 @@ body {
   font-family: serif;
 }
 
+.img {
+  width: 390px;
+}
+
 .main {
   padding: 20px;
   list-style-position: inside;
@@ -33,6 +37,7 @@ body {
 }
 li {
   padding: 10px;
+  font-size: 18px;
 }
 
 .omlrecipe {
@@ -47,9 +52,10 @@ h1 {
   font-family: serif;
 }
 p {
-  margin: 15px;
   color: var(--Stone-600);
-  width: 30ch;
+  width: 50ch;
+  font-size: 18px;
+  padding: 12px;
 }
 .preptime {
   background-color: var(--Rose-50);
@@ -91,6 +97,7 @@ tr + tr {
 td {
   font-family: sans-serif;
   padding: 20px;
+  font-size: 16px;
 }
 td:first-child {
   color: var(--Stone-600);
