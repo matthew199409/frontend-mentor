@@ -23,6 +23,8 @@
 
 body {
   font-family: serif;
+  background-color: var(--Stone-900);
+  margin-left: 150px;
 }
 
 .img {
@@ -33,13 +35,11 @@ body {
   list-style-position: inside;
   width: 390px;
   background-color: var(--White);
-  padding: 5px;
 }
 li {
   padding: 12px;
   font-size: 16px;
-  color: var(--Stone-900);
-  font-weight: var(--Stone-100);
+  color: var(--Stone-600);
 }
 
 .omlrecipe {
@@ -47,28 +47,31 @@ li {
 }
 h1 {
   color: var(--Stone-900);
-  font-weight: 900;
-  width: 17ch;
+  font-weight: 600;
   font-family: serif;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 12px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  width: 17ch;
 }
 p {
   color: var(--Stone-600);
   width: 100%;
   font-size: 16px;
-  line-height: 25px;
+  line-height: 24px;
   margin-bottom: 12px;
+  padding: 12px;
 }
 .preptime {
   background-color: var(--Rose-50);
   color: var(--rose-800);
-  width: 100%;
+  width: 90%;
+  font-weight: 900;
 }
 
 h2 {
   color: var(--rose-800);
-  margin: 20px;
+  margin: 12px;
   padding: 10px;
   font-family: sans-serif;
 }
