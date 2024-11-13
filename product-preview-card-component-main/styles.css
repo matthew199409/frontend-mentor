@@ -11,12 +11,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  max-width: 390px;
 }
 
 body {
   font-family: Montserrat;
   padding: 20px;
+  font-size: 14px;
+  width: 375px;
 }
 
 .container {
@@ -26,16 +27,17 @@ body {
 
 .product-name {
   font-family: Fraunces;
+  width: 5och;
 }
 
 .img-wrapper img {
   width: 100%;
+  display: block;
 }
 
 .product-info {
   background-color: white;
   padding: 20px;
-  font-size: x-large;
 }
 
 .product-info > * + * {
@@ -73,16 +75,14 @@ body {
 }
 
 .add-to-cart-btn {
-  display: flex;
-  width: 100%;
+  display: flex, row;
+  width: 300px;
+  height: 50px;
   border: 0;
   background-color: var(--dark-cyan);
   color: white;
-  padding-block: 8px;
   border-radius: 4px;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
+  font-size: 14px;
 }
 
 /* 
