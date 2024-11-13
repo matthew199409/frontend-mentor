@@ -27,10 +27,6 @@ body {
   font-family: Fraunces;
 }
 
-.img-wrapper {
-  font-size: 0;
-}
-
 .img-wrapper img {
   width: 100%;
 }
@@ -38,6 +34,7 @@ body {
 .product-info {
   background-color: white;
   padding: 20px;
+  font-size: x-large;
 }
 
 .product-info > * + * {
