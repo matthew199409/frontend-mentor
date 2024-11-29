@@ -21,6 +21,7 @@ button {
   border-radius: 5px;
   justify-content: space-around;
   display: flex;
+  font-size: 15px;
 }
 body {
   font-family: Montserrat;
