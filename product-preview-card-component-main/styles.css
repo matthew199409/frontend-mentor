@@ -11,9 +11,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  width: 375px;
 }
 
+button {
+  width: 275px;
+  background-color: var(--dark-cyan);
+  text-align: center;
+  color: var(--cream);
+  border-radius: 5px;
+  justify-content: space-around;
+  display: flex;
+}
 body {
   font-family: Montserrat;
 
@@ -73,18 +81,6 @@ body {
 .price-original {
   font-size: 14px;
   color: var(--dark-grayish-blue);
-}
-
-.add-to-cart-btn {
-  height: 10px;
-  justify-content: center;
-  gap: 10px;
-  border: 0;
-  background-color: var(--dark-cyan);
-  color: white;
-  border-radius: 4px;
-  font-size: 14px;
-  padding: 20px;
 }
 
 /* 
